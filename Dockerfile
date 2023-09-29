@@ -6,5 +6,5 @@ RUN apt update -y \
     && curl -J -L https://github.com/herokukms/odoo-addons/raw/main/addons/base_accounting_kit-16.0.2.0.9.tar.bz2 | tar -xvj
 
 FROM alpine:latest
-COPY --from=builder /bitnami/odoo/addons /bitnami/odoo/sidecar-addons
-CMD ["/bin/sh","-c","cp -av /bitnami/odoo/sidecar-addons /bitnami/odoo/addons"]
+COPY --from=builder /bitnami/odoo/addons /tmp/sidecar-addons
+CMD ["/bin/sh","-c","mv /tmp/sidecar-addons/* /bitnami/odoo/addons/"]
