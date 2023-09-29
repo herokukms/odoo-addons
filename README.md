@@ -7,6 +7,7 @@ AGPL3 odoo 16 addons
 - addons/om_account_accountant-16.0.1.0.0.tar.bz2 LGPLv3 https://apps.odoo.com/apps/modules/16.0/om_account_accountant/
 - addons/ohrms_core-16.0.1.0.0 AGPLv3 https://www.openhrms.com/
 - addons/accounting_pdf_reports-16.0.2.0.4.tar.bz2 LGPLv3 https://apps.odoo.com/apps/modules/16.0/accounting_pdf_reports/
+- addons/OCA-16.0.0.0.tar.bz2 AGPLv3 https://odoo-community.org/
 
 # Installation
 ```sh
