@@ -11,6 +11,7 @@ AGPL3 odoo 16 addons
 - addons/mail_debrand-16.0.230212.212209.tar.bz2 AGPLv3 https://odoo-community.org/
 - addons/base_location-16.0.1.0.1.tar.bz2 AGPLv3 https://odoo-community.org/
 - addons/currency_rate_update-16.0.1.1.2.tar.bz2 AGPLv3 https://odoo-community.org/
+- addons/om_account_bank_statement_import-16.0.2.0.0.tar.bz2 AGPLv3 https://
 
 # Installation
 ```sh
